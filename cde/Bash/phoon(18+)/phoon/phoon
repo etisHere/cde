@@ -1,0 +1,6 @@
+#!/bin/sh
+    
+query=$(printf '%s' "$*" | tr ' ' '+')
+
+mpv "https://motherless.com/$(curl -s "https://motherless.com/$query" | grep -Eo "data-codename=.{8}" | head -n 1 | sed 's/data-codename="//')"
+
