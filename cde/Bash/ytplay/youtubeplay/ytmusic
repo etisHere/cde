@@ -1,0 +1,6 @@
+#!/bin/sh
+
+query=$(printf '%s' "$*" | tr ' ' '+')
+
+#Pulling link then using grep/regex to grab what we want then only outputing the first
+mpv --no-video "https://www.youtube.com/$(curl -s "https://vid.puffyan.us/search?q=$query" | grep -Eo "watch\?v=.{11}" | head -n 1)"
