@@ -197,7 +197,7 @@ def ata():
     if x == aa  :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", aa)
 
 
 def ita ():
@@ -207,17 +207,17 @@ def ita ():
     if x == ia  :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", ia)
 
 
-def uta (): 
+def uta ():
     print(u)
     print("What is this?")
     x = input()
     if x == ua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", ua)
 
 
 def eta ():
@@ -227,7 +227,7 @@ def eta ():
     if x == ea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong!- ", ea)
 
 
 def ota ():
@@ -237,7 +237,7 @@ def ota ():
     if x == oa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", oa)
 
 
 def kata ():
@@ -247,7 +247,7 @@ def kata ():
     if x == kaa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", kaa)
 
 
 def sata ():
@@ -257,7 +257,7 @@ def sata ():
     if x == saa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", saa)
 
 
 def tata ():
@@ -267,7 +267,7 @@ def tata ():
     if x == taa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", taa)
 
 def nata ():
     print(na)
@@ -276,7 +276,7 @@ def nata ():
     if x == naa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", naa)
 
 
 def hata ():
@@ -286,8 +286,8 @@ def hata ():
     if x == haa :
         print("Correct!")
     else:
-        print("Wrong!")
-            
+        print("Wrong! -", haa)
+
 
 def mata ():
     print(ma)
@@ -296,7 +296,7 @@ def mata ():
     if x == maa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", maa)
 
 
 def yata ():
@@ -306,7 +306,7 @@ def yata ():
     if x == yaa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", yaa)
 
 
 def rata ():
@@ -316,7 +316,7 @@ def rata ():
     if x == raa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", raa)
 
 
 def wata ():
@@ -326,7 +326,7 @@ def wata ():
     if x == waa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", waa)
 
 
 def kita ():
@@ -336,7 +336,7 @@ def kita ():
     if x == kia :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", kia)
 
 
 def shita():
@@ -346,7 +346,7 @@ def shita():
     if x == shia :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", shia)
 
 
 def chita():
@@ -356,7 +356,7 @@ def chita():
     if x == chia :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", chia)
 
 
 def nita ():
@@ -366,7 +366,7 @@ def nita ():
     if x == nia :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", nia)
 
 
 def hita ():
@@ -376,7 +376,7 @@ def hita ():
     if x == hia :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", hia)
 
 
 def mita ():
@@ -386,7 +386,7 @@ def mita ():
     if x == mia :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", mia)
 
 
 def rita ():
@@ -396,7 +396,7 @@ def rita ():
     if x == ria :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", ria)
 
 
 def wita ():
@@ -406,7 +406,7 @@ def wita ():
     if x == wia :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", wia)
 
 
 def kuta ():
@@ -416,7 +416,7 @@ def kuta ():
     if x == kua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", kua)
 
 
 def suta ():
@@ -426,7 +426,7 @@ def suta ():
     if x == sua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", sua)
 
 
 def tsuta ():
@@ -436,7 +436,7 @@ def tsuta ():
     if x == tsua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", tsua)
 
 
 def nuta():
@@ -446,7 +446,7 @@ def nuta():
     if x == nua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", nua)
 
 
 def futa ():
@@ -456,7 +456,7 @@ def futa ():
     if x == fua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", fua)
 
 
 def muta ():
@@ -466,7 +466,7 @@ def muta ():
     if x == mua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", mua)
 
 
 def yuta ():
@@ -476,7 +476,7 @@ def yuta ():
     if x == yua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", yua)
 
 
 def ruta ():
@@ -486,7 +486,7 @@ def ruta ():
     if x == rua :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", rua)
 
 
 def keta():
@@ -496,8 +496,8 @@ def keta():
     if x == kea :
         print("Correct!")
     else:
-        print("Wrong!")
-    
+        print("Wrong! -", kea)
+
 
 def seta():
     print(se)
@@ -506,7 +506,7 @@ def seta():
     if x == sea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", sea)
 
 
 def teta():
@@ -516,7 +516,7 @@ def teta():
     if x == tea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", tea)
 
 
 def neta():
@@ -526,7 +526,7 @@ def neta():
     if x == nea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", nea)
 
 
 def heta():
@@ -536,7 +536,7 @@ def heta():
     if x == hea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", hea)
 
 
 def meta ():
@@ -546,7 +546,7 @@ def meta ():
     if x == mea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", mea)
 
 
 def reta():
@@ -556,7 +556,7 @@ def reta():
     if x == rea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", rea)
 
 
 def weta ():
@@ -566,7 +566,7 @@ def weta ():
     if x == wea :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", wea)
 
 def kota():
     print(ko)
@@ -575,7 +575,7 @@ def kota():
     if x == koa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", koa)
 
 
 def sota():
@@ -585,7 +585,7 @@ def sota():
     if x == soa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", soa)
 
 
 def tota():
@@ -595,7 +595,7 @@ def tota():
     if x == toa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", toa)
 
 
 def nota ():
@@ -605,7 +605,7 @@ def nota ():
     if x == noa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", noa)
 
 
 def hota ():
@@ -615,7 +615,7 @@ def hota ():
     if x == hoa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", hoa)
 
 
 def mota ():
@@ -625,7 +625,7 @@ def mota ():
     if x == moa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", moa)
 
 
 def yota ():
@@ -635,7 +635,7 @@ def yota ():
     if x == yoa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", yoa)
 
 
 def rota ():
@@ -645,7 +645,7 @@ def rota ():
     if x == roa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", roa)
 
 
 def wota ():
@@ -655,7 +655,7 @@ def wota ():
     if x == woa :
         print("Correct!")
     else:
-        print("Wrong!")
+        print("Wrong! -", woa)
 
 
 listing = [ata, ita, uta, eta, ota, kata, sata, tata, nata, hata, mata, yata, rata, wata, kita, shita, chita, nita, hita, mita, rita, wita, kuta, suta, tsuta, nuta, futa, muta, yuta, ruta, keta, seta, teta, neta, heta, meta, reta, weta, kota, sota, tota, nota, hota, mota, yota, rota, wota]
