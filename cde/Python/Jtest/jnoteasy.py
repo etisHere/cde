@@ -2,1338 +2,1572 @@
 
 
 import random
+def main():
+    ak = "ア"
 
-ak = "ア"
+    ik = "イ"
 
-ik = "イ"
+    uk = "ウ"
 
-uk = "ウ"
+    ek = "エ"
 
-ek = "エ"
+    ok = "オ"
 
-ok = "オ"
+    kak = "カ"
 
-kak = "カ"
+    sak = "サ"
 
-sak = "サ"
+    tak = "タ"
 
-tak = "タ"
+    nak = "ナ"
 
-nak = "ナ"
+    hak = "ハ"
 
-hak = "ハ"
+    mak = "マ"
 
-mak = "マ"
+    yak = "ヤ"
 
-yak = "ヤ"
+    rak = "ラ"
 
-rak = "ラ"
+    wak = "ワ"
 
-wak = "ワ"
+    kik = "キ"
 
-kik = "キ"
+    shik = "シ"
 
-shik = "シ"
+    chik = "チ"
 
-chik = "チ"
+    nik = "ニ"
 
-nik = "ニ"
+    hik = "ヒ"
 
-hik = "ヒ"
+    mik = "ミ"
 
-mik = "ミ"
+    rik = "リ"
 
-rik = "リ"
+    wik = "ヰ"
 
-wik = "ヰ"
+    kuk = "ク"
 
-kuk = "ク"
+    suk = "ス"
 
-suk = "ス"
+    tsuk = "ツ"
 
-tsuk = "ツ"
+    nuk = "ヌ"
 
-nuk = "ヌ"
+    fuk = "フ"
 
-fuk = "フ"
+    muk = "ム"
 
-muk = "ム"
+    yuk = "ユ"
 
-yuk = "ユ"
+    ruk = "ル"
 
-ruk = "ル"
+    kek = "ケ"
 
-kek = "ケ"
+    sek = "セ"
 
-sek = "セ"
+    tek = "テ"
 
-tek = "テ"
+    nek = "ネ"
 
-nek = "ネ"
+    hek = "ヘ"
 
-hek = "ヘ"
+    mek = "メ"
 
-mek = "メ"
+    rek = "レ"
 
-rek = "レ"
+    wek = "ヱ"
 
-wek = "ヱ"
+    kok = "コ"
 
-kok = "コ"
+    sok = "ソ"
 
-sok = "ソ"
+    tok = "ト"
 
-tok = "ト"
+    nok = "ノ"
 
-nok = "ノ"
+    hok = "ホ"
 
-hok = "ホ"
+    mok = "モ"
 
-mok = "モ"
+    yok = "ヨ"
 
-yok = "ヨ"
+    rok = "ロ"
 
-rok = "ロ"
-
-wok = "ヲ"
+    wok = "ヲ"
 #----------------------------------
-aa = "a"
+    aa = "a"
 
-ia = "i"
+    ia = "i"
 
-ua = "u"
 
-ea = "e"
+    ua = "u"
 
-oa = "o"
 
-kaa = "ka"
+    ea = "e"
 
-saa = "sa"
 
-taa = "ta"
+    oa = "o"
 
-naa = "na"
 
-haa = "ha"
+    kaa = "ka"
 
-maa = "ma"
 
-yaa = "ya"
+    saa = "sa"
 
-raa = "ra"
 
-waa = "wa"
+    taa = "ta"
 
-kia = "ki"
 
-shia = "shi"
+    naa = "na"
 
-chia = "chi"
 
-nia = "ni"
+    haa = "ha"
 
-hia = "hi"
 
-mia = "mi"
+    maa = "ma"
 
-ria = "ri"
 
-wia = "wi"
+    yaa = "ya"
 
-kua = "ku"
 
-sua = "su"
+    raa = "ra"
 
-tsua = "tsu"
 
-nua = "nu"
+    waa = "wa"
 
-fua = "fu"
 
-mua = "mu"
+    kia = "ki"
 
-yua = "yu"
 
-rua = "ru"
+    shia = "shi"
 
-kea = "ke"
 
-sea = "se"
+    chia = "chi"
 
-tea = "te"
 
-nea = "ne"
+    nia = "ni"
 
-hea = "he"
 
-mea = "me"
+    hia = "hi"
 
-rea = "re"
 
-wea = "we"
+    mia = "mi"
 
-koa = "ko"
 
-soa = "so"
+    ria = "ri"
 
-toa = "to"
 
-noa = "no"
+    wia = "wi"
 
-hoa = "ho"
 
-moa = "mo"
+    kua = "ku"
 
-yoa = "yo"
 
-roa = "ro"
+    sua = "su"
 
-woa = "wo"
 
-def atak():
-    print(ak)
-    print("What is this?")
-    x = input()
-    if x == aa  :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(aa)
-
-def itak ():
-    print(ik)
-    print("What is this?")
-    x = input()
-    if x == ia  :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ia)
-
-def utak ():
-    print(uk)
-    print("What is this?")
-    x = input()
-    if x == ua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ua)
-
-def etak ():
-    print(ek)
-    print("What is this?")
-    x = input()
-    if x == ea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ea)
-
-def otak ():
-    print(ok)
-    print("What is this?")
-    x = input()
-    if x == oa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(oa)
-
-def katak ():
-    print(kak)
-    print("What is this?")
-    x = input()
-    if x == kaa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(kaa)
-
-def satak ():
-    print(sak)
-    print("What is this?")
-    x = input()
-    if x == saa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(saa)
-
-def tatak ():
-    print(tak)
-    print("What is this?")
-    x = input()
-    if x == taa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(taa)
-
-
-def natak ():
-    print(nak)
-    print("What is this?")
-    x = input()
-    if x == naa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(naa)
-
-def hatak ():
-    print(hak)
-    print("What is this?")
-    x = input()
-    if x == haa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(haa)
-
-def matak ():
-    print(mak)
-    print("What is this?")
-    x = input()
-    if x == maa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(maa)
-
-def yatak ():
-    print(yak)
-    print("What is this?")
-    x = input()
-    if x == yaa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(yaa)
-
-def ratak ():
-    print(ik)
-    print("What is this?")
-    x = input()
-    if x == raa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ia)
-
-def watak ():
-    print(wak)
-    print("What is this?")
-    x = input()
-    if x == waa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(waa)
-
-def kitak ():
-    print(kik)
-    print("What is this?")
-    x = input()
-    if x == kia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(kia)
-
-def shitak():
-    print(shik)
-    print("What is this?")
-    x = input()
-    if x == shia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(shia)
-
-def chitak():
-    print(chik)
-    print("What is this?")
-    x = input()
-    if x == chia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(chia)
-
-def nitak ():
-    print(nik)
-    print("What is this?")
-    x = input()
-    if x == nia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(nia)
-
-def hitak ():
-    print(hik)
-    print("What is this?")
-    x = input()
-    if x == hia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(hia)
-
-def mitak ():
-    print(mik)
-    print("What is this?")
-    x = input()
-    if x == mia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(mia)
-
-def ritak ():
-    print(rik)
-    print("What is this?")
-    x = input()
-    if x == ria :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ria)
-
-def witak ():
-    print(wik)
-    print("What is this?")
-    x = input()
-    if x == wia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(wia)
-
-def kutak ():
-    print(kuk)
-    print("What is this?")
-    x = input()
-    if x == kua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(kua)
-
-def sutak ():
-    print(suk)
-    print("What is this?")
-    x = input()
-    if x == sua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(sua)
-
-def tsutak ():
-    print(tsuk)
-    print("What is this?")
-    x = input()
-    if x == tsua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(tsua)
-
-def nutak():
-    print(nuk)
-    print("What is this?")
-    x = input()
-    if x == nua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(nua)
-
-def futak ():
-    print(fuk)
-    print("What is this?")
-    x = input()
-    if x == fua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(fua)
-
-def mutak ():
-    print(muk)
-    print("What is this?")
-    x = input()
-    if x == mua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(mua)
-
-def yutak ():
-    print(yuk)
-    print("What is this?")
-    x = input()
-    if x == yua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(yua)
-
-def rutak ():
-    print(ruk)
-    print("What is this?")
-    x = input()
-    if x == rua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(rua)
-
-def ketak():
-    print(ke)
-    print("What is this?")
-    x = input()
-    if x == kea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ka)
-
-def setak():
-    print(sek)
-    print("What is this?")
-    x = input()
-    if x == sea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(sea)
-
-def tetak():
-    print(tek)
-    print("What is this?")
-    x = input()
-    if x == tea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(tea)
-
-def netak():
-    print(nek)
-    print("What is this?")
-    x = input()
-    if x == nea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(nea)
-
-def hetak():
-    print(hek)
-    print("What is this?")
-    x = input()
-    if x == hea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(hea)
-
-def metak ():
-    print(mek)
-    print("What is this?")
-    x = input()
-    if x == mea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(mea)
-
-def retak():
-    print(rek)
-    print("What is this?")
-    x = input()
-    if x == rea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(rea)
-
-def wetak ():
-    print(wek)
-    print("What is this?")
-    x = input()
-    if x == wea :
-        print("Correct!")
-    else:
-        print("Wrong!")
+    tsua = "tsu"
+
+
+    nua = "nu"
+
+
+    fua = "fu"
+
+
+    mua = "mu"
+
+
+    yua = "yu"
+
+
+    rua = "ru"
+
+
+    kea = "ke"
+
+
+    sea = "se"
+
+
+    tea = "te"
+
+
+    nea = "ne"
+
+
+    hea = "he"
+
+
+    mea = "me"
+
+
+    rea = "re"
+
+
+    wea = "we"
+
+
+    koa = "ko"
+
+
+    soa = "so"
+
+
+    toa = "to"
+
+
+    noa = "no"
+
+
+    hoa = "ho"
+
+
+    moa = "mo"
+
+
+    yoa = "yo"
+
+
+    roa = "ro"
+
+    woa = "wo"
+    def atak():
+        print(ak)
+        print("What is this?")
+        x = input()
+        if x == aa  :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(aa)
+            main()
+
+    def itak ():
+        print(ik)
+        print("What is this?")
+        x = input()
+        if x == ia  :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ia)
+            main()
+
+    def utak ():
+        print(uk)
+        print("What is this?")
+        x = input()
+        if x == ua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ua)
+            main()
+
+    def etak ():
+        print(ek)
+        print("What is this?")
+        x = input()
+        if x == ea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ea)
+            main()
+
+    def otak ():
+        print(ok)
+        print("What is this?")
+        x = input()
+        if x == oa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(oa)
+            main()
+
+    def katak ():
+        print(kak)
+        print("What is this?")
+        x = input()
+        if x == kaa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(kaa)
+            main()
+
+    def satak ():
+        print(sak)
+        print("What is this?")
+        x = input()
+        if x == saa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(saa)
+            main()
+
+    def tatak ():
+        print(tak)
+        print("What is this?")
+        x = input()
+        if x == taa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(taa)
+            main()
+
+
+    def natak ():
+        print(nak)
+        print("What is this?")
+        x = input()
+        if x == naa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(naa)
+            main()
+
+    def hatak ():
+        print(hak)
+        print("What is this?")
+        x = input()
+        if x == haa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(haa)
+            main()
+
+    def matak ():
+        print(mak)
+        print("What is this?")
+        x = input()
+        if x == maa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(maa)
+            main()
+
+    def yatak ():
+        print(yak)
+        print("What is this?")
+        x = input()
+        if x == yaa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(yaa)
+            main()
+
+    def ratak ():
+        print(ik)
+        print("What is this?")
+        x = input()
+        if x == raa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ia)
+            main()
+
+    def watak ():
+        print(wak)
+        print("What is this?")
+        x = input()
+        if x == waa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(waa)
+            main()
+
+    def kitak ():
+        print(kik)
+        print("What is this?")
+        x = input()
+        if x == kia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(kia)
+            main()
+
+    def shitak():
+        print(shik)
+        print("What is this?")
+        x = input()
+        if x == shia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(shia)
+            main()
+
+    def chitak():
+        print(chik)
+        print("What is this?")
+        x = input()
+        if x == chia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(chia)
+            main()
+
+    def nitak ():
+        print(nik)
+        print("What is this?")
+        x = input()
+        if x == nia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(nia)
+            main()
+
+    def hitak ():
+        print(hik)
+        print("What is this?")
+        x = input()
+        if x == hia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(hia)
+            main()
+
+    def mitak ():
+        print(mik)
+        print("What is this?")
+        x = input()
+        if x == mia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(mia)
+            main()
+
+    def ritak ():
+        print(rik)
+        print("What is this?")
+        x = input()
+        if x == ria :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ria)
+            main()
+
+    def witak ():
+        print(wik)
+        print("What is this?")
+        x = input()
+        if x == wia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(wia)
+            main()
+
+    def kutak ():
+        print(kuk)
+        print("What is this?")
+        x = input()
+        if x == kua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(kua)
+            main()
+
+    def sutak ():
+        print(suk)
+        print("What is this?")
+        x = input()
+        if x == sua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(sua)
+            main()
+
+    def tsutak ():
+        print(tsuk)
+        print("What is this?")
+        x = input()
+        if x == tsua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(tsua)
+            main()
+
+    def nutak():
+        print(nuk)
+        print("What is this?")
+        x = input()
+        if x == nua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(nua)
+            main()
+
+    def futak ():
+        print(fuk)
+        print("What is this?")
+        x = input()
+        if x == fua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(fua)
+            main()
+
+    def mutak ():
+        print(muk)
+        print("What is this?")
+        x = input()
+        if x == mua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(mua)
+            main()
+
+    def yutak ():
+        print(yuk)
+        print("What is this?")
+        x = input()
+        if x == yua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(yua)
+            main()
+
+    def rutak ():
+        print(ruk)
+        print("What is this?")
+        x = input()
+        if x == rua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(rua)
+            main()
+
+    def ketak():
+        print(ke)
+        print("What is this?")
+        x = input()
+        if x == kea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ka)
+            main()
+
+    def setak():
+        print(sek)
+        print("What is this?")
+        x = input()
+        if x == sea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(sea)
+            main()
+
+    def tetak():
+        print(tek)
+        print("What is this?")
+        x = input()
+        if x == tea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(tea)
+            main()
+
+    def netak():
+        print(nek)
+        print("What is this?")
+        x = input()
+        if x == nea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(nea)
+            main()
+
+    def hetak():
+        print(hek)
+        print("What is this?")
+        x = input()
+        if x == hea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(hea)
+            main()
+
+    def metak ():
+        print(mek)
+        print("What is this?")
+        x = input()
+        if x == mea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(mea)
+            main()
+
+    def retak():
+        print(rek)
+        print("What is this?")
+        x = input()
+        if x == rea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(rea)
+            main()
+
+    def wetak ():
         print(wek)
+        print("What is this?")
+        x = input()
+        if x == wea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(wek)
+            main()
+
+    def kotak():
+        print(kok)
+        print("What is this?")
+        x = input()
+        if x == koa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(koa)
+            main()
+
+
+
+    def sotak():
+        print(sok)
+        print("What is this?")
+        x = input()
+        if x == soa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(soa)
+            main()
+
+    def totak():
+        print(tok)
+        print("What is this?")
+        x = input()
+        if x == toa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(toa)
+            main()
+
+    def notak ():
+        print(nok)
+        print("What is this?")
+        x = input()
+        if x == noa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(noa)
+            main()
+
+    def hotak ():
+        print(hok)
+        print("What is this?")
+        x = input()
+        if x == hoa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(hoa)
+            main()
+
+    def motak ():
+        print(mok)
+        print("What is this?")
+        x = input()
+        if x == moa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(moa)
+            main()
+
+    def yotak ():
+        print(yok)
+        print("What is this?")
+        x = input()
+        if x == yoa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(yoa)
+            main()
 
+    def rotak ():
+        print(rok)
+        print("What is this?")
+        x = input()
+        if x == roa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(roa)
+            main()
 
-def kotak():
-    print(kok)
-    print("What is this?")
-    x = input()
-    if x == koa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(koa)
-
-
-
-def sotak():
-    print(sok)
-    print("What is this?")
-    x = input()
-    if x == soa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(soa)
-
-def totak():
-    print(tok)
-    print("What is this?")
-    x = input()
-    if x == toa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(toa)
-
-def notak ():
-    print(nok)
-    print("What is this?")
-    x = input()
-    if x == noa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(noa)
+    def wotak ():
+        print(wok)
+        print("What is this?")
+        x = input()
+        if x == woa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(woa)
+            main()
 
-def hotak ():
-    print(hok)
-    print("What is this?")
-    x = input()
-    if x == hoa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(hoa)
 
-def motak ():
-    print(mok)
-    print("What is this?")
-    x = input()
-    if x == moa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(moa)
+    a = "あ"
 
-def yotak ():
-    print(yok)
-    print("What is this?")
-    x = input()
-    if x == yoa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(yoa)
+    i = "い"
 
-def rotak ():
-    print(rok)
-    print("What is this?")
-    x = input()
-    if x == roa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(roa)
+    u = "う"
 
-def wotak ():
-    print(wok)
-    print("What is this?")
-    x = input()
-    if x == woa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(woka)
+    e = "え"
 
+    o = "お"
 
-a = "あ"
+    ka = "か"
 
-i = "い"
+    sa = "さ"
 
-u = "う"
+    ta = "た"
 
-e = "え"
+    na = "な"
 
-o = "お"
+    ha = "は"
 
-ka = "か"
+    ma = "ま"
 
-sa = "さ"
+    ya = "や"
 
-ta = "た"
+    ra = "ら"
 
-na = "な"
+    wa = "わ"
 
-ha = "は"
+    ki = "き"
 
-ma = "ま"
+    shi = "し"
 
-ya = "や"
+    chi = "ち"
 
-ra = "ら"
+    ni = "に"
 
-wa = "わ"
+    hi = "ひ"
 
-ki = "き"
+    mi = "み"
 
-shi = "し"
+    ri = "り"
 
-chi = "ち"
+    wi = "ゐ"
 
-ni = "に"
+    ku = "く"
 
-hi = "ひ"
+    su = "す"
 
-mi = "み"
+    tsu = "つ"
 
-ri = "り"
+    nu = "ぬ"
 
-wi = "ゐ"
+    fu = "ふ"
 
-ku = "く"
+    mu = "む"
 
-su = "す"
+    yu = "ゆ"
 
-tsu = "つ"
+    ru = "る"
 
-nu = "ぬ"
+    ke = "け"
 
-fu = "ふ"
+    se = "せ"
 
-mu = "む"
+    te = "て"
 
-yu = "ゆ"
+    ne = "ね"
 
-ru = "る"
+    he = "へ"
 
-ke = "け"
+    me = "め"
 
-se = "せ"
+    re = "れ"
 
-te = "て"
+    we = "ゑ"
 
-ne = "ね"
+    ko = "こ"
 
-he = "へ"
+    so = "そ"
 
-me = "め"
+    to = "と"
 
-re = "れ"
+    no = "の"
 
-we = "ゑ"
+    ho = "ほ"
 
-ko = "こ"
+    mo = "も"
 
-so = "そ"
+    yo = "よ"
 
-to = "と"
+    ro = "ろ"
 
-no = "の"
+    wo = "を"
 
-ho = "ほ"
+    aa = "a"
 
-mo = "も"
+    ia = "i"
 
-yo = "よ"
+    ua = "u"
 
-ro = "ろ"
+    ea = "e"
 
-wo = "を"
+    oa = "o"
 
-aa = "a"
+    kaa = "ka"
 
-ia = "i"
+    saa = "sa"
 
-ua = "u"
+    taa = "ta"
 
-ea = "e"
+    naa = "na"
 
-oa = "o"
+    haa = "ha"
 
-kaa = "ka"
+    maa = "ma"
 
-saa = "sa"
+    yaa = "ya"
 
-taa = "ta"
+    raa = "ra"
 
-naa = "na"
+    waa = "wa"
 
-haa = "ha"
+    kia = "ki"
 
-maa = "ma"
+    shia = "shi"
 
-yaa = "ya"
+    chia = "chi"
 
-raa = "ra"
+    nia = "ni"
 
-waa = "wa"
+    hia = "hi"
 
-kia = "ki"
+    mia = "mi"
 
-shia = "shi"
+    ria = "ri"
 
-chia = "chi"
+    wia = "wi"
 
-nia = "ni"
+    kua = "ku"
 
-hia = "hi"
+    sua = "su"
 
-mia = "mi"
+    tsua = "tsu"
 
-ria = "ri"
+    nua = "nu"
 
-wia = "wi"
+    fua = "fu"
 
-kua = "ku"
+    mua = "mu"
 
-sua = "su"
+    yua = "yu"
 
-tsua = "tsu"
+    rua = "ru"
 
-nua = "nu"
+    kea = "ke"
 
-fua = "fu"
+    sea = "se"
 
-mua = "mu"
+    tea = "te"
 
-yua = "yu"
+    nea = "ne"
 
-rua = "ru"
+    hea = "he"
 
-kea = "ke"
+    mea = "me"
 
-sea = "se"
+    rea = "re"
 
-tea = "te"
+    wea = "we"
 
-nea = "ne"
+    koa = "ko"
 
-hea = "he"
+    soa = "so"
 
-mea = "me"
+    toa = "to"
 
-rea = "re"
+    noa = "no"
 
-wea = "we"
+    hoa = "ho"
 
-koa = "ko"
+    moa = "mo"
 
-soa = "so"
+    yoa = "yo"
 
-toa = "to"
+    roa = "ro"
 
-noa = "no"
+    woa = "wo"
 
-hoa = "ho"
 
-moa = "mo"
+    def ata():
+        print(a)
+        print("What is this?")
+        x = input()
+        if x == aa  :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(aa)
+            main()
 
-yoa = "yo"
+    def ita ():
+        print(i)
+        print("What is this?")
+        x = input()
+        if x == ia  :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ia)
+            main()
 
-roa = "ro"
+    def uta ():
+        print(u)
+        print("What is this?")
+        x = input()
+        if x == ua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ua)
+            main()
 
-woa = "wo"
+    def eta ():
+        print(e)
+        print("What is this?")
+        x = input()
+        if x == ea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ea)
+            main()
 
-def ata():
-    print(a)
-    print("What is this?")
-    x = input()
-    if x == aa  :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(aa)
+    def ota ():
+        print(o)
+        print("What is this?")
+        x = input()
+        if x == oa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(oa)
+            main()
 
-def ita ():
-    print(i)
-    print("What is this?")
-    x = input()
-    if x == ia  :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ia)
+    def kata ():
+        print(ka)
+        print("What is this?")
+        x = input()
+        if x == kaa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(kaa)
+            main()
 
-def uta ():
-    print(u)
-    print("What is this?")
-    x = input()
-    if x == ua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ua)
 
-def eta ():
-    print(e)
-    print("What is this?")
-    x = input()
-    if x == ea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(ea)
+    def sata ():
+        print(sa)
+        print("What is this?")
+        x = input()
+        if x == saa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(saa)
+            main()
 
-def ota ():
-    print(o)
-    print("What is this?")
-    x = input()
-    if x == oa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(oa)
+    def tata ():
+        print(ta)
+        print("What is this?")
+        x = input()
+        if x == taa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(taa)
+            main()
 
-def kata ():
-    print(ka)
-    print("What is this?")
-    x = input()
-    if x == kaa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(kaa)
+    def nata ():
+        print(na)
+        print("What is this?")
+        x = input()
+        if x == naa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(naa)
+            main()
 
+    def hata ():
+        print(ha)
+        print("What is this?")
+        x = input()
+        if x == haa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(haa)
+            main()
 
-def sata ():
-    print(sa)
-    print("What is this?")
-    x = input()
-    if x == saa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(saa)
-
-def tata ():
-    print(ta)
-    print("What is this?")
-    x = input()
-    if x == taa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(taa)
-
-def nata ():
-    print(na)
-    print("What is this?")
-    x = input()
-    if x == naa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(naa)
-
-def hata ():
-    print(ha)
-    print("What is this?")
-    x = input()
-    if x == haa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(haa)
-
-def mata ():
-    print(ma)
-    print("What is this?")
-    x = input()
-    if x == maa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(maa)
-
-def yata ():
-    print(ya)
-    print("What is this?")
-    x = input()
-    if x == yaa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(yaa)
-
-def rata ():
-    print(i)
-    print("What is this?")
-    x = input()
-    if x == raa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(aa)
-
-def wata ():
-    print(wa)
-    print("What is this?")
-    x = input()
-    if x == waa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(waa)
-
-def kita ():
-    print(ki)
-    print("What is this?")
-    x = input()
-    if x == kia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(kaa)
-
-def shita():
-    print(shi)
-    print("What is this?")
-    x = input()
-    if x == shia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(shaa)
-
-def chita():
-    print(chi)
-    print("What is this?")
-    x = input()
-    if x == chia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(chaa)
-
-def nita ():
-    print(ni)
-    print("What is this?")
-    x = input()
-    if x == nia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(naa)
-
-def hita ():
-    print(hi)
-    print("What is this?")
-    x = input()
-    if x == hia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(haa)
-
-def mita ():
-    print(mi)
-    print("What is this?")
-    x = input()
-    if x == mia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(maa)
-
-def rita ():
-    print(ri)
-    print("What is this?")
-    x = input()
-    if x == ria :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(raa)
-
-def wita ():
-    print(wi)
-    print("What is this?")
-    x = input()
-    if x == wia :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(waa)
-
-def kuta ():
-    print(ku)
-    print("What is this?")
-    x = input()
-    if x == kua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(kaa)
-
-def suta ():
-    print(su)
-    print("What is this?")
-    x = input()
-    if x == sua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(saa)
-
-def tsuta ():
-    print(tsu)
-    print("What is this?")
-    x = input()
-    if x == tsua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(tsaa)
-
-def nuta():
-    print(nu)
-    print("What is this?")
-    x = input()
-    if x == nua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(naa)
-
-def futa ():
-    print(fu)
-    print("What is this?")
-    x = input()
-    if x == fua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(faa)
-
-def muta ():
-    print(mu)
-    print("What is this?")
-    x = input()
-    if x == mua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(maa)
-
-def yuta ():
-    print(yu)
-    print("What is this?")
-    x = input()
-    if x == yua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(yaa)
-
-def ruta ():
-    print(ru)
-    print("What is this?")
-    x = input()
-    if x == rua :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(raa)
-
-def keta():
-    print(ke)
-    print("What is this?")
-    x = input()
-    if x == kea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(kaa)
-
-def seta():
-    print(se)
-    print("What is this?")
-    x = input()
-    if x == sea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(saa)
-
-def teta():
-    print(te)
-    print("What is this?")
-    x = input()
-    if x == tea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(taa)
-
-
-def neta():
-    print(ne)
-    print("What is this?")
-    x = input()
-    if x == nea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(naa)
-
-
-def heta():
-    print(he)
-    print("What is this?")
-    x = input()
-    if x == hea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(haa)
-
-
-def meta ():
-    print(me)
-    print("What is this?")
-    x = input()
-    if x == mea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(maa)
-
-
-def reta():
-    print(re)
-    print("What is this?")
-    x = input()
-    if x == rea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(raa)
-
-
-
-def weta ():
-    print(we)
-    print("What is this?")
-    x = input()
-    if x == wea :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(wea)
-
-
-def kota():
-    print(ko)
-    print("What is this?")
-    x = input()
-    if x == koa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(koa)
-
-
-def sota():
-    print(so)
-    print("What is this?")
-    x = input()
-    if x == soa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(soa)
-
-def tota():
-    print(to)
-    print("What is this?")
-    x = input()
-    if x == toa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(toa)
-
-def nota ():
-    print(no)
-    print("What is this?")
-    x = input()
-    if x == noa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(noa)
-
-def hota ():
-    print(ho)
-    print("What is this?")
-    x = input()
-    if x == hoa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(hoa)
-
-def mota ():
-    print(moa)
-    print("What is this?")
-    x = input()
-    if x == moa :
-        print("Correct!")
-    else:
-        print("Wrong!")
+    def mata ():
         print(ma)
+        print("What is this?")
+        x = input()
+        if x == maa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(maa)
+            main()
 
-def yota ():
-    print(yo)
-    print("What is this?")
-    x = input()
-    if x == yoa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(yoa)
+    def yata ():
+        print(ya)
+        print("What is this?")
+        x = input()
+        if x == yaa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(yaa)
+            main()
 
-def rota ():
-    print(ro)
-    print("What is this?")
-    x = input()
-    if x == roa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(roa)
+    def rata ():
+        print(i)
+        print("What is this?")
+        x = input()
+        if x == raa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(aa)
+            main()
 
-def wota ():
-    print(wo)
-    print("What is this?")
-    x = input()
-    if x == woa :
-        print("Correct!")
-    else:
-        print("Wrong!")
-        print(woa)
+    def wata ():
+        print(wa)
+        print("What is this?")
+        x = input()
+        if x == waa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(waa)
+            main()
 
-listing = [ata, ita, uta, eta, ota, kata, sata, tata, nata, hata, mata, yata, rata, wata, kita, shita, chita, nita, hita, mita, rita, wita, kuta, suta, tsuta, nuta, futa, muta, yuta, ruta, keta, seta, teta, neta, heta, meta, reta, weta, kota, sota, tota, nota, hota, mota, yota, rota, wota, itak, utak, etak, otak, katak, satak, tatak, natak, hatak, matak, yatak, ratak, watak, kitak, shitak, chitak, nitak, hitak, mitak, ritak, witak, kutak, sutak, tsutak, nutak, futak, mutak, yutak, rutak, ketak, setak, tetak, netak, hetak, metak, retak, wetak, kotak, sotak, totak, notak, hotak, motak, yotak, rotak, wotak]
+    def kita ():
+        print(ki)
+        print("What is this?")
+        x = input()
+        if x == kia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(kaa)
+            main()
 
-choice = random.choice(listing)
-choice()
+    def shita():
+        print(shi)
+        print("What is this?")
+        x = input()
+        if x == shia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(shia)
+            main()
+
+    def chita():
+        print(chi)
+        print("What is this?")
+        x = input()
+        if x == chia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(chia)
+            main()
+
+    def nita ():
+        print(ni)
+        print("What is this?")
+        x = input()
+        if x == nia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(naa)
+            main()
+
+    def hita ():
+        print(hi)
+        print("What is this?")
+        x = input()
+        if x == hia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(haa)
+            main()
+
+    def mita ():
+        print(mi)
+        print("What is this?")
+        x = input()
+        if x == mia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(maa)
+            main()
+
+    def rita ():
+        print(ri)
+        print("What is this?")
+        x = input()
+        if x == ria :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(raa)
+            main()
+
+    def wita ():
+        print(wi)
+        print("What is this?")
+        x = input()
+        if x == wia :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(waa)
+            main()
+
+    def kuta ():
+        print(ku)
+        print("What is this?")
+        x = input()
+        if x == kua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(kaa)
+            main()
+
+    def suta ():
+        print(su)
+        print("What is this?")
+        x = input()
+        if x == sua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(saa)
+            main()
+
+    def tsuta ():
+        print(tsu)
+        print("What is this?")
+        x = input()
+        if x == tsua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(tsua)
+            main()
+
+    def nuta():
+        print(nu)
+        print("What is this?")
+        x = input()
+        if x == nua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(naa)
+            main()
+
+    def futa ():
+        print(fu)
+        print("What is this?")
+        x = input()
+        if x == fua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(fua)
+            main()
+
+    def muta ():
+        print(mu)
+        print("What is this?")
+        x = input()
+        if x == mua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(maa)
+            main()
+
+    def yuta ():
+        print(yu)
+        print("What is this?")
+        x = input()
+        if x == yua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(yaa)
+            main()
+
+    def ruta ():
+        print(ru)
+        print("What is this?")
+        x = input()
+        if x == rua :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(raa)
+            main()
+
+    def keta():
+        print(ke)
+        print("What is this?")
+        x = input()
+        if x == kea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(kaa)
+            main()
+
+    def seta():
+        print(se)
+        print("What is this?")
+        x = input()
+        if x == sea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(saa)
+            main()
+
+    def teta():
+        print(te)
+        print("What is this?")
+        x = input()
+        if x == tea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(taa)
+            main()
+
+
+    def neta():
+        print(ne)
+        print("What is this?")
+        x = input()
+        if x == nea :
+            main()
+            print("Correct!")
+        else:
+            print("Wrong!")
+            print(naa)
+            main()
+
+
+    def heta():
+        print(he)
+        print("What is this?")
+        x = input()
+        if x == hea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(haa)
+            main()
+
+
+    def meta ():
+        print(me)
+        print("What is this?")
+        x = input()
+        if x == mea :
+            main()
+            print("Correct!")
+        else:
+            print("Wrong!")
+            main()
+            print(maa)
+
+
+    def reta():
+        print(re)
+        print("What is this?")
+        x = input()
+        if x == rea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(raa)
+            main()
+
+
+
+    def weta ():
+        print(we)
+        print("What is this?")
+        x = input()
+        if x == wea :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(wea)
+            main()
+
+
+    def kota():
+        print(ko)
+        print("What is this?")
+        x = input()
+        if x == koa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(koa)
+            main()
+
+
+    def sota():
+        print(so)
+        print("What is this?")
+        x = input()
+        if x == soa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(soa)
+            main()
+
+    def tota():
+        print(to)
+        print("What is this?")
+        x = input()
+        if x == toa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(toa)
+            main()
+
+    def nota ():
+        print(no)
+        print("What is this?")
+        x = input()
+        if x == noa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(noa)
+            main()
+
+    def hota ():
+        print(ho)
+        print("What is this?")
+        x = input()
+        if x == hoa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(hoa)
+            main()
+
+    def mota ():
+        print(moa)
+        print("What is this?")
+        x = input()
+        if x == moa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(ma)
+            main()
+
+    def yota ():
+        print(yo)
+        print("What is this?")
+        x = input()
+        if x == yoa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(yoa)
+            main()
+
+    def rota ():
+        print(ro)
+        print("What is this?")
+        x = input()
+        if x == roa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(roa)
+            main()
+
+    def wota ():
+        print(wo)
+        print("What is this?")
+        x = input()
+        if x == woa :
+            print("Correct!")
+            main()
+        else:
+            print("Wrong!")
+            print(woa)
+            main()
+
+    listing = [ata, ita, uta, eta, ota, kata, sata, tata, nata, hata, mata, yata, rata, wata, kita, shita, chita, nita, hita, mita, rita, wita, kuta, suta, tsuta, nuta, futa, muta, yuta, ruta, keta, seta, teta, neta, heta, meta, reta, weta, kota, sota, tota, nota, hota, mota, yota, rota, wota, itak, utak, etak, otak, katak, satak, tatak, natak, hatak, matak, yatak, ratak, watak, kitak, shitak, chitak, nitak, hitak, mitak, ritak, witak, kutak, sutak, tsutak, nutak, futak, mutak, yutak, rutak, ketak, setak, tetak, netak, hetak, metak, retak, wetak, kotak, sotak, totak, notak, hotak, motak, yotak, rotak, wotak]
+    choice = random.choice(listing)
+    choice()
+
+
+
+main()
