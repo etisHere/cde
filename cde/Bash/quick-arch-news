@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Very light script to show the top of the arch news.
+
+curl https://archlinux.org/news/ |  awk -F '"' '$0=$2' | grep "^View:" | cut -d: -f2- | head

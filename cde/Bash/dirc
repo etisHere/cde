@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#This was just a quick way to use to below cmd while learning arguments 
+
+#Run this script with argument example : " ./script /home/user/dir "
+lines=$(ls -lh $1 | wc -l)
+
+#Doing the same as below just if there is no argument at start
+if [ $# -ne 1 ]
+then
+    echo "You have $lines objects in this directory"
+    exit 1
+fi
+
+
+#Echo wc -l and removing the first line as its not needed.
+#echo "You have $(($lines-1)) objects in the $1 directory" 
+
+#CHANGE ME AND IF STATE TO ABOVE IF NOT ON ARCH! 
+echo "You have $lines objects in the $1 directory" 

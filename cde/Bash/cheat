@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#This is a quick way to use cheat.sh
+#TO USE:
+#   ./cheat your-search
+#   ./cheat
+#   
+linkt="cheat.sh/"
+user_search=$1
+
+if [ -z $user_search  ]
+then
+    echo "What are you searching?: "
+    read user_search
+    clear
+    echo "Making cheats for $user_search"
+    curl "https://cheat.sh/$user_search"
+else
+    echo "Making cheats for $user_search"
+    curl "https://cheat.sh/$user_search"
+fi
+
+
+
