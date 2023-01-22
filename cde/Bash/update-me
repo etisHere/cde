@@ -1,0 +1,49 @@
+#!/bin/bash
+#
+#This script will update Arch and log the errors/output to a folder called
+## /log under your home dir. Why? because I use this with a cronjob.   
+#TODO:Change IF states to functions/CASE states 
+#
+LOG_F="/home/$USER/log/updater.log"
+LOG_N="/home/$USER/log/updater-error.log"
+LOG_DIR="/home/$USER/log"
+export PATH=$PATH:/usr/bin
+echo "Checking for log dir/files under $LOG_DIR.. if not there making them now!"
+echo " "
+locate $LOG_DIR 1>/dev/null 2>/dev/null  
+if [ $? -ne 0 ]
+then
+    mkdir $LOG_DIR 2>/dev/null 
+fi
+
+
+echo "START AT: $(date)" 1>> $LOG_F
+
+
+#Sending any error to a black hole
+find $LOG_F 1>/dev/null 2>/dev/null  
+if [ $? -ne 0 ]
+then
+    touch $LOG_F  
+fi
+
+
+find $LOG_N 1>/dev/null 2>/dev/null
+if [ $? -ne 0 ]
+then
+    touch $LOG_N 
+fi
+
+if [ $? -eq 0 ]
+then
+    #1>> = normal output 2>> = error output(TO WATCH THIS FILE TYPE " tail -f filename " 
+    echo "Updating! Please type root pass and wait. View updater.log or updater-error.log for whats going on!" 
+    time sudo pacman -Syu --noconfirm 1>>$LOG_F 2>>$LOG_N && echo " " 1>> $LOG_F && echo "DONE AT: $(date)" 1>> $LOG_F 
+    echo " " 1>> $LOG_F
+    echo " "
+    echo "Done!"
+    if [ $? -ne 0 ] 
+    then
+        echo "RIP ERROR check $LOG_N"
+    fi
+fi
