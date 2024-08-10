@@ -6,7 +6,7 @@ import sys
 
 #This small script will take input at launch and try to guess what you put as input randomly.
 
-pass_at = set()
+#pass_at = set()
 
 attempts = 0
 
